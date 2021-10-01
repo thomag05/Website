@@ -71,7 +71,7 @@
 }
 
 .banner-area{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Pictures/01-technology_1421446100.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Pictures/01-technology_1421446100.jpg);
   -webkit-background-size:cover;
   background-size:cover;
   background-position: center center;
@@ -117,4 +117,13 @@
     background-color: #001B29;
     color: white;
     flex-flow: column;
+  }
+  .information {
+    display: flex;
+    height: calc(50vh);
+    align-items: center;
+    background-color: #001B29;
+    color: white;
+    flex-flow: column;
+    padding-top: 25px;
   }
