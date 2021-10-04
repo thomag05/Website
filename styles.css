@@ -118,6 +118,7 @@
     color: white;
     flex-flow: column;
   }
+  /* Sosiale Medier */
   .information {
     display: flex;
     height: calc(50vh);
@@ -127,3 +128,56 @@
     flex-flow: column;
     padding-top: 25px;
   }
+  .parentSos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: calc(50vh);
+    background-color: #001B29 ;
+    border-top: solid 5px white;
+  }
+  .Sos1 {
+    order: 1;
+    background-color: inherit;
+    width: calc(50vw);
+    border-right: solid 1px white;
+    padding: 10px;
+  }
+  .Sos2 {
+    order: 2;
+    background-color: inherit;
+    width: calc(50vw);
+    border-left: solid 1px white;
+    padding: 10px;
+  }
+  #SosI {
+    font-size: 150%;
+    color: white;
+    text-align: center;
+  }
+  .parentSos h1 {
+    color: white;
+    text-align: center;
+  }
+  .Sos3 {
+    order:1;
+    background-color: inherit;
+    width: calc(60vw);
+    padding: 10px;
+  }
+  #SosII {
+    font-size: 150%;
+    color: white;
+    padding: 10px;
+  }
+#SosH {
+  color: white;
+  text-align: start;
+}
+.SosBilde {
+  width: calc(40vw);
+  order: 2;
+  background-image: url(./Pictures/ocial-Media.jpg);
+
+}
