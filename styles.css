@@ -87,28 +87,6 @@
     letter-spacing: 2px;
 }
 
-  /*Endrer hvordan det ser ut på ulike skjermer*/
-
-  /* Medium skjerm */
-  @media all and (max-width: 800px) {
-    .menu-area {
-      justify-content: space-around;
-    }
-  }
-
-  /* Liten skjerm */
-  @media all and (max-width: 600px) {
-    .menu-area {
-      flex-flow: column wrap;
-      padding: 0;
-    }
-    .menu-area a { 
-      text-align: center; 
-      padding: 10px;
-      border-top: 1px solid rgba(255, 255, 255,0.3); 
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-    }
-  }
   .about-site {
     display: flex;
     height: calc(80vh);
@@ -133,7 +111,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    height: calc(50vh);
+    height: auto;
     background-color: #001B29 ;
     border-top: solid 5px white;
   }
@@ -180,4 +158,24 @@
   order: 2;
   background-image: url(./Pictures/ocial-Media.jpg);
 
+}
+/* MEDIA QUERIES */
+@media (min-width: 1500px) {
+  .parentSos {
+    height: calc(50vh)
+  }
+}
+@media (max-width: 800px) {
+  .parentSos {
+    flex-flow: column wrap;
+  }
+  .Sos1 {
+    width: 100%;
+  }
+  .Sos2 {
+    width: 100%;
+  }
+  .Sos3 {
+    width:100%;
+  }
 }
