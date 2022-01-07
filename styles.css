@@ -78,7 +78,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 60px);
+  height: calc(80vh - 60px);
 }
 .banner-area h1 {
     color: #fff;
@@ -178,4 +178,17 @@
   .Sos3 {
     width:100%;
   }
+}
+.pa {
+  text-align: center;
+  margin: 25px;
+}
+.about-bildehist {
+  display: flex;
+  height: calc(100vh);
+  align-items: center;
+  border: solid 1px #F78764;
+  background-color: #001B29;
+  color: white;
+  flex-flow: column;
 }
